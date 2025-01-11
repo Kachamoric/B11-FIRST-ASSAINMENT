@@ -167,18 +167,96 @@ gap: 24px;
 .h1-header{
   margin:32px 160px 0px 230px;
 }
-.news-para{
-  margin:32px 160px 0px 230px;
-}
+
+
 .new-cd{
   margin:32px 160px 0px 230px;
   padding:20px;
   display: flex;
+  max-width: 1920px;
+  margin: 20 auto;
+  padding: 20px;
+  border-radius: 5px;
+  gap: 32px;
+  background-color: white ;
+  justify-content: space-between;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1) ;
 
 }
+.new-btn{
+  background-color:rgba(0, 106, 80, 1) ;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
 
+}
+.donate-sec{
+  max-width: 1920px;
+  margin: 50px auto;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
 
-    
+}
+.donate-h1{
+font-weight: Bold;
+font-size: 40px;
+}
+.donate-para{
+  font-weight: normal;
+  font-size: 16px;
+}
+ .donate-optn{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin:32px 160px 0px 230px ;
+ }
+ .donate-btn{
+  background-color: white;
+  border-radius: 5px;
+  font-size:40px ;
+  font-weight: Bold;
+  color: rgba(14, 14, 14, 0.8);
+  text-align: center;
+  box-shadow:4px 4px 10px rgba(14, 14, 14, 0.15) ;
+  padding: 20px;
+
+ } 
+.donnate-btn{
+  border: 2px;
+  border-radius: 5px;
+  font-size: 40px;
+  background-color: rgba(198, 228, 214, 1);
+  color: rgba(14, 14, 14, 0.8);
+  text-align: center;
+  padding:20px;
+} 
+.other-amt{
+  margin: 20px;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: normal;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  margin: 20 auto;
+  padding: 20px;
+  background-color: white ;
+  justify-content: space-between;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1) ;
+}  
+.donate-btn-2nd{
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: rgba(0, 106, 80, 1);
+  font-size: 18px;
+  font-weight: 600px;
+  border-radius: 7px;
+  color: white;
+  text-align: center;
+}
 
 
     
